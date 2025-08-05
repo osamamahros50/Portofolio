@@ -40,8 +40,8 @@ const projects = [
       "A modern, responsive portfolio website built with React and Tailwind CSS, featuring smooth animations and a clean design.",
     tech: ["React", "Tailwind CSS", "AOS", "Responsive Design"],
     image: portfolioImg,
-    demo: "https://your-portfolio.netlify.app",
-    code: "https://github.com/osamamahros50/Yommy.git",
+    demo: "https://portofolio-xrp1.vercel.app/",
+    code: "https://github.com/osamamahros50/Portofolio.git",
   },
 ];
 
