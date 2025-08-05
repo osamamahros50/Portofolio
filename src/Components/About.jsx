@@ -82,7 +82,7 @@ export default function AboutMe() {
       </div>
 
       {/* Right Section */}
-      <div className="space-y-4">
+      <div className="space-y-4 overflow-hidden">
         {/* Card 1 */}
         <div data-aos="fade-left" data-aos-delay="400">
           <div className="bg-gray-300 dark:bg-slate-700 rounded-xl p-7 flex items-start gap-3 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30 transition-transform duration-300">
