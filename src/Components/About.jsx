@@ -33,7 +33,7 @@ export default function AboutMe() {
 
     <div className="grid md:grid-cols-2 gap-8 items-start">
       {/* Left Section */}
-      <div className="border bg-white dark:bg-slate-900 border-purple-300 dark:border-purple-500 rounded-xl p-6 shadow-lg hover:shadow-purple-500/40 transition">
+      <div className="border overflow-hidden bg-white dark:bg-slate-900 border-purple-300 dark:border-purple-500 rounded-xl p-6 shadow-lg hover:shadow-purple-500/40 transition">
         <div className="overflow-hidden">
           <h3
             className="flex items-center text-xl sm:text-2xl font-bold text-blue-600 dark:text-blue-400 mb-4"
