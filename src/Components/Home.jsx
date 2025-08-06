@@ -70,13 +70,14 @@ export default function Home() {
           data-aos="fade-up"
           data-aos-delay="900"
         >
-          <a
-            href="../../public/Osama-Mahrous-Cv.pdf"
-            download
-            className="px-5 sm:px-6 py-2 sm:py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-lg shadow-lg transition duration-300 text-sm sm:text-base flex items-center gap-2 justify-center"
-          >
-            <FaDownload /> Download CV
-          </a>
+       <a
+  href="/Osama-Mahrous-Cv.pdf"
+  download
+  className="px-5 sm:px-6 py-2 sm:py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-lg shadow-lg transition duration-300 text-sm sm:text-base flex items-center gap-2 justify-center"
+>
+  <FaDownload /> Download CV
+</a>
+
 
           <a
             href="#contact"
