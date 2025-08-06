@@ -6,7 +6,6 @@ export default function Footer() {
   return (
     <footer className="bg-gray-300 dark:bg-slate-800 text-gray-800 dark:text-white px-6 py-10 overflow-hidden transition-colors duration-300">
       <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left overflow-hidden">
-
         {/* Profile Info */}
         <div>
           <h2
@@ -22,7 +21,8 @@ export default function Footer() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            Frontend React Developer passionate about creating amazing user experiences.
+            Frontend React Developer passionate about creating amazing user
+            experiences.
           </p>
 
           <div
@@ -95,8 +95,15 @@ export default function Footer() {
 
           <div className="flex flex-wrap gap-2 mt-2">
             {[
-              "HTML", "CSS", "JavaScript", "React", "Tailwind CSS",
-              "Git", "Next.js", "Redux", "React Query"
+              "HTML",
+              "CSS",
+              "JavaScript",
+              "React",
+              "Tailwind CSS",
+              "Git",
+              "Next.js",
+              "Redux",
+              "React Query",
             ].map((tech, index) => (
               <span
                 key={tech}
@@ -112,9 +119,7 @@ export default function Footer() {
       </div>
 
       {/* Bottom Copyright */}
-      <div
-        className="mt-10 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-slate-400 dark:border-slate-700 pt-6"
-      >
+      <div className="mt-10 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-slate-400 dark:border-slate-700 pt-6">
         © 2025 Osama Mahrous. Built with ❤️ using React & Tailwind CSS
       </div>
     </footer>

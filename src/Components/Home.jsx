@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Typewriter } from "react-simple-typewriter";
+import { FaDownload } from "react-icons/fa";
 
 export default function Home() {
   useEffect(() => {
@@ -70,11 +71,13 @@ export default function Home() {
           data-aos-delay="900"
         >
           <a
-            href="#projects"
-            className="px-5 sm:px-6 py-2 sm:py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-lg shadow-lg transition duration-300 text-sm sm:text-base"
+            href="../../public/Osama-Mahrous-Cv.pdf"
+            download
+            className="px-5 sm:px-6 py-2 sm:py-3 bg-pink-500 hover:bg-pink-600 text-white font-semibold rounded-lg shadow-lg transition duration-300 text-sm sm:text-base flex items-center gap-2 justify-center"
           >
-            View My Work
+            <FaDownload /> Download CV
           </a>
+
           <a
             href="#contact"
             className="px-5 sm:px-6 py-2 sm:py-3 border border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-white font-semibold rounded-lg transition duration-300 text-sm sm:text-base"
