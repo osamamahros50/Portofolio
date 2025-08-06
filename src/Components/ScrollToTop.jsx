@@ -14,14 +14,10 @@ export default function ScrollToTop() {
   }, []);
 
   const scrollToTop = () => {
-    const scroll = () => {
-      const current = window.scrollY;
-      if (current > 0) {
-        window.scrollTo(0, current - 50); // سرعة الصعود
-        requestAnimationFrame(scroll);
-      }
-    };
-    requestAnimationFrame(scroll);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // ✅ الحركة السلسة
+    });
   };
 
   return (
