@@ -92,7 +92,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
-            className={`${darkMode ? "text-white" : "text-black"} text-2xl focus:outline-none`}
+            className={` text-purple-600 text-2xl focus:outline-none`}
           >
             {isMenuOpen ? <FiX /> : <FiMenu />}
           </button>

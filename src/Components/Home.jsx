@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Typewriter } from "react-simple-typewriter";
 
 export default function Home() {
   useEffect(() => {
@@ -21,7 +22,18 @@ export default function Home() {
           data-aos-delay="0"
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 flex flex-wrap justify-center items-center gap-2"
         >
-          Hi, <span className="text-indigo-400">I'm Osama Mahrous</span>
+          Hi, I`m          <span className="text-indigo-400">
+            <Typewriter
+              words={["Osama Mahros"]}
+              loop={false}
+              cursor
+              cursorStyle="|"
+              typeSpeed={100}
+              deleteSpeed={100}
+              delaySpeed={1000}
+            />
+          </span>
+
           <span className="animate-wave inline-block">👋</span>
         </h1>
       </div>
